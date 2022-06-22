@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Video from "../components/Video";
-import SideBar  from "../components/SideBar";
+import {SideBar}  from "../components/SideBar";
 
 export default function Event () {
   return (
