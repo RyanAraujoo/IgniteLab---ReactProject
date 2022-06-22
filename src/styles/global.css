@@ -3,26 +3,28 @@
 @tailwind utilities;
 
 body {
-  @apply bg-zinc-900 text-zinc-100;
+  @apply bg-gray-900 text-gray-100;
+-webkit-font-smoothing: antialiased;
 }
+/*
+ CMS = content Management System
+ o wordpress traz tanto o painel de Admin quanto a parte visual do front end (temas)
+ HeadLess CMS: painel de ADMIN fornecidos através de uma apiRest ou GraphQL
 
-// CMS = content Management System
-// o wordpress traz tanto o painel de Admin quanto a parte visual do front end (temas)
-// HeadLess CMS: painel de ADMIN //fornecidos através de uma apiRest ou GraphQL
+ react que consome essa api ou CMS.
 
-// react que consome essa api ou CMS.
-
-/* como o graphCMS
+ como o graphCMS
 >  models = entidades da aplicação
-https://rseat.in/lab-graphcms
-query// mutation
+https: rseat.in/lab-graphcms
+query  mutation
 query = buscar dados
 mutation = criar, deletar ou editar dados 
-*/
 
- // debaixo dos panos <- uso do useQuery
-  /* useEffect(() => {
+
+  debaixo dos panos <- uso do useQuery
+   useEffect(() => {
     client.query({
       query:  GET_LESSONS_QUERY
     }).then(res =>  console.log(res.data))
-  }, []) */   
+  }, []) 
+  */ 
