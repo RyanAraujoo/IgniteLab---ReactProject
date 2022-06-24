@@ -17,7 +17,7 @@ import Lesson from "./Lesson"
       title: string,
       slug: string,
       id: string,
-      lessonType: 'Live' | 'class'
+      lessonType: 'live' | 'class'
     }[]
   }
 
